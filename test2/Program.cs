@@ -4,14 +4,14 @@ int c = 70;
 int count = 3;
 if (n > c)
 {
-    n -= c;
-    count *= n;
-    Console.WriteLine(count);
+   n -= c;
+   count *= n;
+   Console.WriteLine(count);
 }
 else
 {
-    c -= n;
-    Console.WriteLine(c);
+   c -= n;
+   Console.WriteLine(c);
 }
 
 ~~~~~
@@ -21,22 +21,22 @@ int Y = 25;
 int Z = 12;
 if (X > Y)
 {
-    if (X > Z)
-    {
-        Console.Write("X boyukdur.");
-    }
-    else
-    {
-        Console.Write("Z boyukdur.");
-    }
+   if (X > Z)
+   {
+       Console.Write("X boyukdur.");
+   }
+   else
+   {
+       Console.Write("Z boyukdur.");
+   }
 }
 else if (Y > Z)
 {
-    Console.Write("Y boyukdur.");
+   Console.Write("Y boyukdur.");
 }
 else
 {
-    Console.Write("Z boyukdur.");
+   Console.Write("Z boyukdur.");
 }
 
 ~~~~~
